@@ -6,7 +6,7 @@ import registerServiceWorker from './registerServiceWorker';
 import axios from 'axios';
 
 // we can add default value for requests and variable with axios
-axios.defaults.baseURL = 'https://jsonplaceholder.typicode.com';
+// axios.defaults.baseURL = 'https://jsonplaceholder.typicode.com';
 axios.defaults.headers.common['Authorization'] = 'Auth Token';
 // although default content type is application/json, we can still set contenttype manually
 axios.defaults.headers.post['Content-Type'] = 'application/json';
